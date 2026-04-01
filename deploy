@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+ALMANAC_DIR="$(cd "$(dirname "$0")" && pwd)"
+DEPLOY_REPO="$HOME/qrcards-deploy"
+STATIC_TARGET="$DEPLOY_REPO/flasklayer/static/almanac"
+
+echo "Building Hugo..."
+cd "$ALMANAC_DIR"
+hugo --minify
+
+echo "Syncing to qrcards-deploy..."
+rsync -av --delete "$ALMANAC_DIR/public/" "$STATIC_TARGET/"
+
+echo "Committing deploy..."
+cd "$DEPLOY_REPO"
+git add flasklayer/static/almanac/
+if git diff --cached --quiet; then
+    echo "No changes to deploy."
+    exit 0
+fi
+git commit -m "almanac: update $(date +%Y-%m-%d)"
+git push
+
+echo "Deployed."

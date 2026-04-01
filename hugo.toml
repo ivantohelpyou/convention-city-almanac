@@ -1,0 +1,67 @@
+baseURL = 'https://almanac.conventioncityseattle.com/'
+languageCode = 'en-us'
+title = 'Convention City Almanac'
+theme = 'hugo-book'
+copyright = '© 2026 Ivan Schneider · <a href="https://conventioncityseattle.com/">Convention City Seattle</a> · Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
+
+[params]
+  BookShowPageHeader = true
+  BookMenuHeader = true
+  BookMenu = true
+  BookToC = 3
+  BookSection = 'cities'
+  BookSearch = true
+  description = "Reference almanac for convention center urbanism — placement, finance, governance, and the neighborhoods around these buildings."
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.before]]
+    name = "Cities"
+    url = "/cities/"
+    weight = 1
+  [[menu.before]]
+    name = "Theory"
+    url = "/theory/"
+    weight = 2
+  [[menu.before]]
+    name = "Themes"
+    url = "/themes/"
+    weight = 3
+  [[menu.before]]
+    name = "CommonScore"
+    url = "/commonscore/"
+    weight = 4
+  [[menu.before]]
+    name = "Leaderboard"
+    url = "/commonscore/leaderboard/"
+    weight = 5
+    [menu.before.params]
+      class = "book-menu-indent"
+  [[menu.before]]
+    name = "Findings"
+    url = "/findings/"
+    weight = 6
+
+  [[menu.after]]
+    name = "Contribute"
+    url = "/contribute/"
+    weight = 1
+  [[menu.after]]
+    name = "Method"
+    url = "/method/"
+    weight = 2
+  [[menu.after]]
+    name = "Dispatch"
+    url = "https://dispatch.conventioncityseattle.com/"
+    weight = 10
+  [[menu.after]]
+    name = "Commons"
+    url = "https://commons.conventioncityseattle.com/"
+    weight = 11

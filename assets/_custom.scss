@@ -1,0 +1,286 @@
+/* Convention City Almanac — Convention City Seattle styling */
+
+:root {
+  --ccs-forest: #1a3a2a;
+  --ccs-forest-mid: #2d5a3d;
+  --ccs-forest-light: #3d7a50;
+  --ccs-gold: #c8922a;
+  --ccs-gold-light: #e8b84b;
+  --ccs-cream: #f9f5ef;
+  --ccs-ink: #1a1a1a;
+  --ccs-ink-mid: #3d3d3d;
+  --ccs-ink-light: #666666;
+  --ccs-border: #e0d8cc;
+
+  /* Override Hugo Book theme variables */
+  --body-background: var(--ccs-cream);
+  --body-font-color: var(--ccs-ink-mid);
+  --color-link: var(--ccs-forest-mid);
+  --color-visited-link: var(--ccs-forest);
+}
+
+/* ─── GLOBAL ─── */
+body {
+  font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--ccs-cream);
+  color: var(--ccs-ink-mid);
+}
+
+/* ─── SIDEBAR / MENU ─── */
+aside.book-menu {
+  background: var(--ccs-forest);
+  overflow-y: auto !important;
+}
+
+.book-menu-content {
+  background: var(--ccs-forest);
+  min-height: 100%;
+}
+
+/* Ensure sidebar background extends full height of page */
+main.container.flex {
+  align-items: stretch;
+}
+
+aside.book-menu::after {
+  content: '';
+  display: block;
+  flex: 1;
+  background: var(--ccs-forest);
+}
+
+.book-menu nav {
+  max-height: none !important;
+  overflow-y: auto !important;
+}
+
+.book-menu-content {
+  max-height: none !important;
+  height: auto !important;
+}
+
+.book-menu nav a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.book-menu nav a:hover {
+  color: var(--ccs-gold-light);
+}
+
+.book-menu nav a.active {
+  color: var(--ccs-gold-light);
+}
+
+.book-menu nav ul li {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.book-brand a {
+  color: var(--ccs-gold-light) !important;
+  font-weight: 700;
+}
+
+/* Search box in sidebar */
+.book-search input {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.book-search input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* ─── HEADINGS ─── */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ccs-forest);
+}
+
+h1 {
+  border-bottom: 2px solid var(--ccs-gold);
+  padding-bottom: 0.5rem;
+}
+
+/* ─── LINKS ─── */
+.book-page a {
+  color: var(--ccs-forest-mid);
+}
+
+.book-page a:hover {
+  color: var(--ccs-gold);
+}
+
+/* ─── ANCHOR LINKS ─── */
+a.anchor {
+  color: var(--ccs-gold);
+  opacity: 0.4;
+}
+
+a.anchor:hover {
+  opacity: 1;
+}
+
+/* ─── TABLES ─── */
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background: var(--ccs-forest);
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+}
+
+table th a,
+table th a:visited,
+table th a:hover {
+  color: var(--ccs-gold-light);
+}
+
+table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--ccs-border);
+}
+
+table td a {
+  color: var(--ccs-forest-mid);
+}
+
+table td a:visited {
+  color: var(--ccs-forest-mid);
+}
+
+table td a:hover {
+  color: var(--ccs-gold);
+}
+
+table tr:hover {
+  background: rgba(200, 146, 42, 0.05);
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+  border-left: 4px solid var(--ccs-gold);
+  background: rgba(200, 146, 42, 0.05);
+  padding: 0.75rem 1rem;
+  color: var(--ccs-ink-mid);
+}
+
+/* ─── CODE ─── */
+code {
+  background: rgba(29, 58, 42, 0.06);
+  color: var(--ccs-forest);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+/* ─── HORIZONTAL RULES ─── */
+hr {
+  border-color: var(--ccs-border);
+}
+
+/* ─── TOC ─── */
+aside.book-toc nav a {
+  color: var(--ccs-ink-light);
+}
+
+aside.book-toc nav a:hover {
+  color: var(--ccs-forest-mid);
+}
+
+/* ─── FOOTER ─── */
+.book-copyright {
+  color: var(--ccs-ink-light);
+}
+
+.book-copyright a {
+  color: var(--ccs-gold);
+}
+
+/* ─── MENU INDENT ─── */
+.book-menu nav a.book-menu-indent {
+  padding-left: 2rem;
+  font-size: 0.9em;
+}
+
+/* ─── MOBILE MENU ─── */
+@media screen and (max-width: 56rem) {
+  .book-menu .book-menu-content {
+    background: var(--ccs-forest);
+  }
+}
+
+/* ─── HEADER ─── */
+header.book-header {
+  background: var(--ccs-forest);
+  color: white;
+}
+
+header.book-header h3 {
+  color: var(--ccs-gold-light);
+}
+
+/* ─── City entry metadata table ─── */
+.city-meta {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.city-meta dt {
+  font-weight: 600;
+  color: var(--ccs-forest);
+}
+
+.city-meta dd {
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+  color: var(--ccs-ink-mid);
+}
+
+/* ─── Comparison table ─── */
+.comparison-table {
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+.comparison-table th {
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+
+/* ─── Source citations ─── */
+.sources {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ccs-border);
+  font-size: 0.85rem;
+  color: var(--ccs-ink-light);
+}
+
+.sources h3 {
+  font-size: 0.9rem;
+  color: var(--ccs-forest);
+}
+
+/* ─── Cross-site badges ─── */
+.site-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-right: 0.3rem;
+}
+
+.site-badge--dispatch {
+  background: rgba(29, 58, 42, 0.1);
+  color: var(--ccs-forest-mid);
+}
+
+.site-badge--commons {
+  background: rgba(200, 146, 42, 0.1);
+  color: var(--ccs-gold);
+}
