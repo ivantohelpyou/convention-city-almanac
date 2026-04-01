@@ -58,10 +58,20 @@ The Washington State Convention Center Public Facilities District is a special-p
 
 ## Board Members
 
-*To be extracted from board meeting minutes (2018–2025). Minutes available locally (2018–2022 from Wayback Machine archive) and on [seattlecc.com](https://seattlecc.com) (2023–2025).*
+*Source: [seattlecc.com/governance](https://seattlecc.com/governance/), retrieved April 2026.*
 
-**Known from published research:**
-- **Joy Shigaki** — also sits on Friends of Waterfront Park board
+| Name | Role | Affiliation |
+|---|---|---|
+| Frank K. Finneran | Chairman (since 1988) | President & CEO, Frank K. Finneran & Co. |
+| Craig Schafer | Vice Chair (appointed Oct 2013) | Owner, Hotel Andra and Inn at the Market |
+| Deryl Brown-Archie | Member (since 2000; Vice Chair 2003–2024) | Tribal attorney, Muckleshoot Indian Tribe |
+| Robert J. Flowers | Member (since 2010; nonprofit board since 1996) | Former SVP, Washington Mutual |
+| Katie Garrow | Member (appointed 2022) | Executive Secretary-Treasurer, MLK Labor |
+| Tom Norwalk | Member (appointed 2023) | Former President & CEO, Visit Seattle |
+| Stuart "Stu" T. Rolfe | Member | Owner & President, Wright Hotels; former Chairman & CEO, Space Needle Corporation |
+| Joy Shigaki | Member | President & CEO, Friends of Waterfront Park |
+
+8 of 9 seats filled. Frank K. Finneran has served as Chairman since 1988 (38 years). Tom Norwalk (former Visit Seattle CEO) joined in 2023 — notable given the PFD's $10.6M marketing contract with Visit Seattle.
 
 ---
 

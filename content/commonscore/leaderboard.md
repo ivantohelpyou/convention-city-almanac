@@ -8,7 +8,7 @@ bookToC: true
 
 # CommonScore Leaderboard
 
-City-wide participation space scores. [Methodology](/commonscore/). 20 cities scored.
+City-wide participation space scores. [Methodology](/commonscore/). 23 cities scored.
 
 ## Rankings
 
@@ -17,24 +17,26 @@ City-wide participation space scores. [Methodology](/commonscore/). 20 cities sc
 | 1 | [**New York**](/cities/new-york/commonscore/) | **38** | Education (5.7), Civic (5.9), Food (5.9) | Javits (675K sq ft) |
 | 2 | [**Seoul**](/cities/seoul/commonscore/) | **37** | Civic (5.0), Industry (3.9), Makers (3.4) | COEX + KINTEX |
 | 3 | [**Boston**](/cities/boston/commonscore/) | **32** | Civic (5.9), Education (4.9), Industry (3.4) | Hynes + BCEC |
-| 4 | [**Amsterdam**](/cities/amsterdam/commonscore/) | **32** | Industry (4.5), Civic (4.4), Food (4.4) | RAI (915K sq ft) |
-| 5 | [**Helsinki**](/cities/helsinki/commonscore/) | **30** | Civic (7.7), Education (2.9), Arts (2.8) | Messukeskus (516K sq ft) |
-| 6 | [**Washington DC**](/cities/dc/commonscore/) | **30** | Civic (5.9), Education (3.6), Industry (3.4) | Walter E. Washington (703K sq ft) |
-| 7 | [**Los Angeles**](/cities/los-angeles/commonscore/) | **29** | Civic (4.4), Food (4.4), Education (3.6) | LA Convention Center (720K sq ft) |
+| 4 | [**Amsterdam**](/cities/amsterdam/commonscore/) | **32** | Industry (4.5), Civic (4.4), Arts (3.8) | RAI (915K sq ft) |
+| 5 | [**Los Angeles**](/cities/los-angeles/commonscore/) | **32** | Food (5.0), Civic (4.4), Education (4.3) | LA CC (720K sq ft) |
+| 6 | [**Helsinki**](/cities/helsinki/commonscore/) | **30** | Civic (7.7), Education (2.9), Arts (2.8) | Messukeskus (516K sq ft) |
+| 7 | [**Washington DC**](/cities/dc/commonscore/) | **30** | Civic (5.9), Education (3.6), Industry (3.4) | Walter E. Washington (703K sq ft) |
 | 8 | [**Taipei**](/cities/taipei/commonscore/) | **28** | Food (5.5), Markets (4.9), Industry (3.4) | TaiNEX (460K sq ft) |
 | 9 | [**Tokyo**](/cities/tokyo/commonscore/) | **28** | Food (5.0), Industry (3.9), Civic (3.5) | Big Sight + Makuhari |
-| 10 | [**Seattle**](/cities/seattle/commonscore/) | **27** | Markets (4.9), Civic (3.5), Food (3.5) | WSCC Arch + Summit |
-| 11 | [**Chicago**](/cities/chicago/commonscore/) | **26** | Industry (5.0), Civic (4.4), Education (2.5) | McCormick Place (2.6M sq ft) |
-| 12 | [**Sydney**](/cities/sydney/commonscore/) | **25** | Civic (3.5), Industry (3.4), Food (3.1) | ICC Sydney (355K sq ft) |
-| 13 | [**Medellín**](/cities/medellin/commonscore/) | **24** | Food (4.4), Education (3.6), Markets (2.8) | Plaza Mayor (260K sq ft) |
-| 14 | [**Pittsburgh**](/cities/pittsburgh/commonscore/) | **24** | Education (3.2), Civic (3.1), Robotics (2.1) | David L. Lawrence (313K sq ft) |
-| 15 | [**Portland**](/cities/portland/commonscore/) | **24** | Food (5.0), Civic (3.1), Markets (2.8) | Oregon CC (255K sq ft) |
-| 16 | [**Copenhagen**](/cities/copenhagen/commonscore/) | **23** | Civic (4.4), Food (3.1), Education (2.5) | Bella Center (240K sq ft) |
-| 17 | [**Denver**](/cities/denver/commonscore/) | **23** | Civic (4.4), Industry (2.5), Markets (2.1) | Colorado CC (584K sq ft) |
-| 18 | [**Vancouver**](/cities/vancouver/commonscore/) | **22** | Civic (3.5), Industry (3.4), Food (3.1) | VCC (466K sq ft) |
-| 19 | [**Detroit**](/cities/detroit/commonscore/) | **20** | Industry (2.5), Civic (2.0), Arts (2.0) | Huntington Place (723K sq ft) |
-| 20 | [**San Diego**](/cities/san-diego/commonscore/) | **20** | Civic (3.9), Industry (3.4), Education (2.2) | SD CC (615K sq ft) |
-| 21 | [**Nashville**](/cities/nashville/commonscore/) | **14** | Music (2.8), Industry (2.5), Civic (1.7) | Music City Center |
+| 10 | [**Austin**](/cities/austin/commonscore/) | **27** | Food (5.0), Civic (3.1), Industry (2.9) | Austin CC (expanding to 710K) |
+| 11 | [**Seattle**](/cities/seattle/commonscore/) | **27** | Markets (4.9), Civic (3.5), Food (3.5) | WSCC Arch + Summit |
+| 12 | [**Chicago**](/cities/chicago/commonscore/) | **26** | Industry (5.0), Civic (4.4), Education (2.5) | McCormick Place (2.6M sq ft) |
+| 13 | [**Miami**](/cities/miami/commonscore/) | **26** | Education (3.6), Civic (3.5), Industry (3.4) | MBCC (500K sq ft) |
+| 14 | [**Sydney**](/cities/sydney/commonscore/) | **25** | Civic (3.5), Industry (3.4), Food (3.1) | ICC Sydney (355K sq ft) |
+| 15 | [**Medellín**](/cities/medellin/commonscore/) | **24** | Food (4.4), Education (3.6), Markets (2.8) | Plaza Mayor (260K sq ft) |
+| 16 | [**Pittsburgh**](/cities/pittsburgh/commonscore/) | **24** | Education (3.2), Civic (3.1), Robotics (2.1) | David L. Lawrence (313K sq ft) |
+| 17 | [**Portland**](/cities/portland/commonscore/) | **24** | Food (5.0), Civic (3.1), Markets (2.8) | Oregon CC (255K sq ft) |
+| 18 | [**Copenhagen**](/cities/copenhagen/commonscore/) | **23** | Civic (4.4), Food (3.1), Education (2.5) | Bella Center (240K sq ft) |
+| 19 | [**Denver**](/cities/denver/commonscore/) | **23** | Civic (4.4), Industry (2.5), Markets (2.1) | Colorado CC (584K sq ft) |
+| 20 | [**Vancouver**](/cities/vancouver/commonscore/) | **22** | Civic (3.5), Industry (3.4), Food (3.1) | VCC (466K sq ft) |
+| 21 | [**Detroit**](/cities/detroit/commonscore/) | **20** | Industry (2.5), Civic (2.0), Arts (2.0) | Huntington Place (723K sq ft) |
+| 22 | [**San Diego**](/cities/san-diego/commonscore/) | **20** | Civic (3.9), Industry (3.4), Education (2.2) | SD CC (615K sq ft) |
+| 23 | [**Nashville**](/cities/nashville/commonscore/) | **14** | Music (2.8), Industry (2.5), Civic (1.7) | Music City Center |
 
 ---
 
@@ -60,9 +62,9 @@ City-wide participation space scores. [Methodology](/commonscore/). 20 cities sc
 60-100  ░░░ Commons model (no city yet)
 40-59   ░░░ Strong participation (no city yet)
 37-38   ██▓ New York, Seoul
-30-32   ███ Boston, Amsterdam, Helsinki, DC
-27-29   ███ LA, Taipei, Tokyo, Seattle
-23-26   ███ Chicago, Sydney, Medellín, Pittsburgh, Portland, Copenhagen, Denver, Vancouver
+30-32   ███ Boston, Amsterdam, LA, Helsinki, DC
+27-28   ███ Taipei, Tokyo, Austin, Seattle
+23-26   ███ Chicago, Miami, Sydney, Medellín, Pittsburgh, Portland, Copenhagen, Denver, Vancouver
 20-22   ██░ Detroit, San Diego
 14      █░░ Nashville
 ```
@@ -73,4 +75,4 @@ City-wide participation space scores. [Methodology](/commonscore/). 20 cities sc
 
 *[CommonScore methodology](/commonscore/) | [All cities](/cities/)*
 
-*Last updated 2026-04-01. CommonScore — city-wide participation space model. 21 cities scored.*
+*Last updated 2026-04-01. CommonScore — city-wide participation space model. 23 cities scored.*
