@@ -11,7 +11,7 @@ copyright = '© 2026 Ivan Schneider · <a href="https://conventioncityseattle.co
   BookToC = 3
   BookSection = 'cities'
   BookSearch = true
-  description = "Reference almanac for convention center urbanism — placement, finance, governance, and the neighborhoods around these buildings."
+  description = "CommonScore measures city-wide participation space — can you make art, rehearse, prototype, organize? 32 cities scored across 16 dimensions."
 
 [taxonomies]
   tag = "tags"
@@ -23,28 +23,27 @@ copyright = '© 2026 Ivan Schneider · <a href="https://conventioncityseattle.co
 
 [menu]
   [[menu.before]]
-    name = "Cities"
-    url = "/cities/"
+    name = "Leaderboard"
+    url = "/commonscore/leaderboard/"
     weight = 1
   [[menu.before]]
+    name = "CommonScore"
+    url = "/commonscore/"
     weight = 2
   [[menu.before]]
     name = "Themes"
     url = "/themes/"
     weight = 3
-  [[menu.before]]
-    name = "CommonScore"
-    url = "/commonscore/"
-    weight = 4
-  [[menu.before]]
-    name = "Leaderboard"
-    url = "/commonscore/leaderboard/"
-    weight = 5
     [menu.before.params]
       class = "book-menu-indent"
   [[menu.before]]
     name = "Findings"
-    weight = 6
+    url = "/findings/"
+    weight = 4
+  [[menu.before]]
+    name = "Cities"
+    url = "/cities/"
+    weight = 5
 
   [[menu.after]]
     name = "Contribute"
