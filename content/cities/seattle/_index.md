@@ -12,6 +12,7 @@ Two convention facilities, two blocks apart, in the geographic center of the cit
 
 - **[The Arch](/cities/seattle/the-arch/)** — 705 Pike Street. Opened 1988. 236,700 sq ft exhibit. Freeway lid over I-5. ~115 event days/year.
 - **[The Summit](/cities/seattle/the-summit/)** — 900 Pine Street. Opened 2023. 573,770 sq ft total. $1.9B. North America's first high-rise convention center.
+- **[Meydenbauer Center, Bellevue](/cities/seattle/meydenbauer/)** — 10 miles east. Opened 1993. 54,000 sq ft. City-operated. On East Link 2 Line (2024).
 - **[Tacoma Convention Center](/cities/seattle/tacoma/)** — 20 miles south. Opened 2004. ~119,000 sq ft. City-operated. Future Link light rail (2035).
 
 ## Reference
@@ -56,7 +57,7 @@ All factual claims resolve to these sources. Where data is estimated or unverifi
 | 9 | Kids | 6 | 0.5 | 0.3 | 0.9 | Community center programming (dance, sports, camps). *Seattle Children's Museum.* Kids participate through recitals, competitions, and classes — at community center scale, not convention center scale. |
 | 10 | Robotics | 6 | 0.3 | 0.2 | 0.4 | No MassRobotics equivalent. *Some startup incubators.* Allen Institute and UW robotics are research institutions, not participation space. *AI House* (near-weekly) and *AI Tinkerers* (semi-monthly) have regular programming but are capacity-constrained, running in borrowed space — the Phoenix Comics pattern for innovation: proven demand, needs space. |
 | 11 | Wellness | 5 | 0.5 | 0.3 | 0.8 | Community centers with pools and gyms. Recovery meetings at churches (participation, not consumption). *Meditation groups, community yoga.* Distributed at modest scale. |
-| 12 | Seniors | 4 | 0.5 | 0.3 | 0.6 | Senior centers (*Phinney, Greenwood, others*). Horizon House (3 blocks from the Arch). Library programming. Participation exists but with zero connection to the convention center's empty space. |
+| 12 | Seniors | 4 | 0.5 | 0.3 | 0.6 | Senior centers (*Phinney, Greenwood, others*). Horizon House (direct access to the Arch via Freeway Park). Library programming. Participation exists but with zero connection to the convention center's empty space. |
 | 13 | Gaming | 4 | 1.0 | 0.2 | 0.8 | Phoenix Comics (nightly organized play). *Mox Boarding House (Ballard).* PAX/ECCC/GeekGirlCon ≈ 3 weeks/year at convention scale. Daily demand proven, constrained by retail square footage. |
 | 14 | Theater | 4 | 0.5 | 0.2 | 0.4 | Community theater participation: *ACT youth programs, Book-It, Annex Theatre.* Seattle Fringe Festival. Participation exists at small scale — no convention-center-scale rehearsal or production space available. |
 | 15 | Sports | 2 | 0.5 | 0.3 | 0.3 | Rec leagues and pickup at parks. *Community center gyms.* Participation is real at parks-department scale. Arenas remain consumption (spectating). |

@@ -109,7 +109,7 @@ The Dome and convention center together give Tacoma a capacity range from 10-per
 
 ---
 
-*See also: [Seattle](/cities/seattle/) (20 miles north, same airport) | [Meydenbauer Center, Bellevue](/cities/seattle/players/) (36K sq ft, on Link 2 Line)*
+*See also: [Seattle](/cities/seattle/) (20 miles north, same airport) | [Meydenbauer Center, Bellevue](/cities/seattle/meydenbauer/) (36K sq ft, on Link 2 Line)*
 
 ## Sources
 
