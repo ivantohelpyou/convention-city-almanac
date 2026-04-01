@@ -197,28 +197,6 @@ Full 16-dimension table with evidence: **[Seattle CommonScore page](/cities/seat
 
 Full dimension-level scoring tables are on each city's CommonScore page. Full rankings on the **[leaderboard](/commonscore/leaderboard/)**.
 
-Top-level summary (21 cities scored — full rankings on the [leaderboard](/commonscore/leaderboard/)):
-
-| City | CommonScore | The story |
-|---|---|---|
-| [**New York**](/cities/new-york/) | **38** | Three library systems, CUNY, off-off-Broadway. Institutional depth at NYC scale. |
-| [**Boston**](/cities/boston/) | **32** | University density + MassRobotics. Two convention centers, one rich city. |
-| [**Helsinki**](/cities/helsinki/) | **30** | The commons exists — it's called Oodi. One building covers 7 dimensions. |
-| [**Washington DC**](/cities/dc/) | **30** | The capital advantage — civic infrastructure is world-class. MLK Library has a maker space. |
-| [**Taipei**](/cities/taipei/) | **28** | Night markets as daily cultural institution. Distributed participation. |
-| [**Tokyo**](/cities/tokyo/) | **28** | Extraordinary participation infrastructure. None of it near Big Sight. |
-| [**Seattle**](/cities/seattle/) | **27** | Strong distributed infrastructure. No commons building. Convention center contributes 16%. |
-| [**Chicago**](/cities/chicago/) | **26** | Largest convention center in North America + rich storefront theater tradition. |
-| [**Pittsburgh**](/cities/pittsburgh/) | **24** | University-anchored robotics model. CMU RIC opened 2026. |
-| [**Copenhagen**](/cities/copenhagen/) | **23** | Strong Nordic civic culture — just not in Ørestad. |
-| [**Vancouver**](/cities/vancouver/) | **22** | Municipal community centre model. Crown corp convention centre with civic mandate. |
-| [**Detroit**](/cities/detroit/) | **20** | Rebuilding after bankruptcy. Strong maker/arts culture, recovering infrastructure. |
-| [**Nashville**](/cities/nashville/) | **14** | The one city where participation culture is real — but only for music. |
-
-**The highest score is 38. Out of 100.** No city has broken into the 40+ band — "strong participation infrastructure." Helsinki at 30, with Oodi, is the closest a smaller city has come. One purpose-built commons building took Helsinki from ~18 to 30.
-
-**Industry Networking matters.** Convention centers get credit for what they actually do: host professional conferences. McCormick Place scores 5.0 on Industry Networking — the highest in the dataset. This is honest: convention centers are good at industry networking. The CommonScore question is *what else could the building do?*
-
 ---
 
 ## The Supply-Side Gap Analysis
