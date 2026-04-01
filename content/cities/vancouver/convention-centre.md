@@ -93,4 +93,4 @@ The Vancouver Convention Centre functions as a daily public asset with year-roun
 
 ## CommonScore
 
-**[Vancouver CommonScore: 22](/cities/vancouver/commonscore/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/vancouver/commonscore/).
+**[Vancouver CommonScore: 22](/cities/vancouver/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/vancouver/).

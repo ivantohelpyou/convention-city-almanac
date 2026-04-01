@@ -13,7 +13,7 @@ A composite metric for whether a city provides **space for people to do things**
 
 A city with Walk Score 98 sits in a great neighborhood. If its CommonScore is 30, the city has meaningful participation infrastructure — libraries with meeting rooms, makerspaces, farmers markets — but still large gaps where convention-scale space sits empty between private events.
 
-The CommonScore is a **gap analysis**. High-scoring dimensions tell you what the city already does well — and what a commons doesn't need to replicate. Zero-scoring dimensions tell you where to invest.
+The CommonScore is a **compass, not a directory**. It tells you which direction a city's participation infrastructure points — which dimensions are strong, which are absent, where to invest. It's not a guide to specific facilities or operating hours. If the ranking doesn't match your intuition about which cities have more participation space, the methodology needs fixing — that's what matters, not whether a specific venue closed on Tuesdays.
 
 CommonScore measures participation space **city-wide**, not just near the convention center. A makerspace in Nørrebro counts for Copenhagen. The BPL counts for Boston. Oodi counts for Helsinki. Pike Place counts for Seattle. The question is *"does this city provide participation space for this activity?"* — not *"is it near the convention center."* Convention centers are one provider among many; cities that solved the problem elsewhere should not be penalized for intentional separation.
 
@@ -21,9 +21,9 @@ CommonScore measures participation space **city-wide**, not just near the conven
 
 ## The Question
 
-> If I show up this week wanting to **do** this activity — not watch, not consume, but participate — is there space for me?
+> If I live here and I want to **do** this activity this week — not watch, not consume, but participate — is there space for me?
 
-That's the core question. Asked 16 times, once per dimension, for each city.
+That's the core question. Asked 16 times, once per dimension, for each city. The "I" is a resident, not a visitor — someone who could show up every week, build skills, join a community. A tourist can eat at a hawker centre; a resident can *operate a stall*. The CommonScore measures infrastructure for the second person.
 
 The distinction is between **consumption** and **participation**:
 
@@ -151,6 +151,8 @@ The policy question a CommonScore answers is not "how does your city rate?" but 
 
 A low score on a dimension with high weekly availability but low scale (proven daily demand, constrained by space) is the strongest signal: **the bottleneck is supply, not demand.** Increase the space and the demand will follow — because it's already showing up every night in 800 square feet.
 
+**The virtuous cycle.** Participation infrastructure doesn't just serve residents — it makes a city more interesting to visitors. A tourist who watches a band goes home. A tourist who sits in at a jam session comes back. A convention attendee who walks through a food hall eats lunch and leaves. One who operates a pop-up stall during a maker market becomes a repeat visitor, then a part-timer, then a resident. The cities at the top of the CommonScore aren't just better places to live — they're better places to visit, because participation is more compelling than consumption. The more a city invests in participation space, the more it attracts people who want to join, not just observe.
+
 ---
 
 ## Interpreting the Score
@@ -183,11 +185,11 @@ They're complementary. WalkScore says the neighborhood works. CommonScore says t
 
 ### Seattle (Worked Example)
 
-**Walk Score: 98 (downtown). [CommonScore: 27](/cities/seattle/commonscore/).**
+**Walk Score: 98 (downtown). [CommonScore: 27](/cities/seattle/).**
 
 The convention center contributes 16% of Seattle's score (Industry Networking + Mega-Events). The other 84% was built by libraries, community centers, markets, makerspaces, music venues, and parks.
 
-Full 16-dimension table with evidence: **[Seattle CommonScore page](/cities/seattle/commonscore/)**.
+Full 16-dimension table with evidence: **[Seattle CommonScore page](/cities/seattle/)**.
 
 ---
 
@@ -199,19 +201,19 @@ Top-level summary (21 cities scored — full rankings on the [leaderboard](/comm
 
 | City | CommonScore | The story |
 |---|---|---|
-| [**New York**](/cities/new-york/commonscore/) | **38** | Three library systems, CUNY, off-off-Broadway. Institutional depth at NYC scale. |
-| [**Boston**](/cities/boston/commonscore/) | **32** | University density + MassRobotics. Two convention centers, one rich city. |
-| [**Helsinki**](/cities/helsinki/commonscore/) | **30** | The commons exists — it's called Oodi. One building covers 7 dimensions. |
-| [**Washington DC**](/cities/dc/commonscore/) | **30** | The capital advantage — civic infrastructure is world-class. MLK Library has a maker space. |
-| [**Taipei**](/cities/taipei/commonscore/) | **28** | Night markets as daily cultural institution. Distributed participation. |
-| [**Tokyo**](/cities/tokyo/commonscore/) | **28** | Extraordinary participation infrastructure. None of it near Big Sight. |
-| [**Seattle**](/cities/seattle/commonscore/) | **27** | Strong distributed infrastructure. No commons building. Convention center contributes 16%. |
-| [**Chicago**](/cities/chicago/commonscore/) | **26** | Largest convention center in North America + rich storefront theater tradition. |
-| [**Pittsburgh**](/cities/pittsburgh/commonscore/) | **24** | University-anchored robotics model. CMU RIC opened 2026. |
-| [**Copenhagen**](/cities/copenhagen/commonscore/) | **23** | Strong Nordic civic culture — just not in Ørestad. |
-| [**Vancouver**](/cities/vancouver/commonscore/) | **22** | Municipal community centre model. Crown corp convention centre with civic mandate. |
-| [**Detroit**](/cities/detroit/commonscore/) | **20** | Rebuilding after bankruptcy. Strong maker/arts culture, recovering infrastructure. |
-| [**Nashville**](/cities/nashville/commonscore/) | **14** | The one city where participation culture is real — but only for music. |
+| [**New York**](/cities/new-york/) | **38** | Three library systems, CUNY, off-off-Broadway. Institutional depth at NYC scale. |
+| [**Boston**](/cities/boston/) | **32** | University density + MassRobotics. Two convention centers, one rich city. |
+| [**Helsinki**](/cities/helsinki/) | **30** | The commons exists — it's called Oodi. One building covers 7 dimensions. |
+| [**Washington DC**](/cities/dc/) | **30** | The capital advantage — civic infrastructure is world-class. MLK Library has a maker space. |
+| [**Taipei**](/cities/taipei/) | **28** | Night markets as daily cultural institution. Distributed participation. |
+| [**Tokyo**](/cities/tokyo/) | **28** | Extraordinary participation infrastructure. None of it near Big Sight. |
+| [**Seattle**](/cities/seattle/) | **27** | Strong distributed infrastructure. No commons building. Convention center contributes 16%. |
+| [**Chicago**](/cities/chicago/) | **26** | Largest convention center in North America + rich storefront theater tradition. |
+| [**Pittsburgh**](/cities/pittsburgh/) | **24** | University-anchored robotics model. CMU RIC opened 2026. |
+| [**Copenhagen**](/cities/copenhagen/) | **23** | Strong Nordic civic culture — just not in Ørestad. |
+| [**Vancouver**](/cities/vancouver/) | **22** | Municipal community centre model. Crown corp convention centre with civic mandate. |
+| [**Detroit**](/cities/detroit/) | **20** | Rebuilding after bankruptcy. Strong maker/arts culture, recovering infrastructure. |
+| [**Nashville**](/cities/nashville/) | **14** | The one city where participation culture is real — but only for music. |
 
 **The highest score is 38. Out of 100.** No city has broken into the 40+ band — "strong participation infrastructure." Helsinki at 30, with Oodi, is the closest a smaller city has come. One purpose-built commons building took Helsinki from ~18 to 30.
 

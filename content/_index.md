@@ -14,14 +14,14 @@ The [CommonScore](/commonscore/) measures city-wide participation space across 1
 
 | | City | Score | |
 |---|---|---|---|
-| 1 | [Singapore](/cities/singapore/commonscore/) | **44** | Government-engineered participation at every level |
-| 2 | [London](/cities/london/commonscore/) | **38** | City Lit, Parkrun, Borough Market, fringe theater |
-| 3 | [Mexico City](/cities/mexico-city/commonscore/) | **38** | 1,400 tianguis, 250+ PILARES, UNAM |
-| 4 | [New York](/cities/new-york/commonscore/) | **38** | Three library systems, CUNY, off-off-Broadway |
+| 1 | [Singapore](/cities/singapore/) | **44** | Government-engineered participation at every level |
+| 2 | [London](/cities/london/) | **38** | City Lit, Parkrun, Borough Market, fringe theater |
+| 3 | [Mexico City](/cities/mexico-city/) | **38** | 1,400 tianguis, 250+ PILARES, UNAM |
+| 4 | [New York](/cities/new-york/) | **38** | Three library systems, CUNY, off-off-Broadway |
 | | ... | | |
-| 20 | [Seattle](/cities/seattle/commonscore/) | **27** | Strong base, no commons building |
+| 20 | [Seattle](/cities/seattle/) | **27** | Strong base, no commons building |
 | | ... | | |
-| 32 | [Nashville](/cities/nashville/commonscore/) | **14** | Music only |
+| 32 | [Nashville](/cities/nashville/) | **14** | Music only |
 
 **[Full leaderboard →](/commonscore/leaderboard/)**
 

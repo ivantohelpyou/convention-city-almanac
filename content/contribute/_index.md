@@ -4,88 +4,35 @@ weight: 10
 bookFlatSection: true
 ---
 
-# Contribute to the Almanac
+# Contribute
 
-The Convention City Almanac is an open reference. Entries are credited to their authors.
+The Convention City Almanac is an open reference. 32 cities scored, 16 dimensions measured, every claim sourced.
 
 ## What We Need
 
-**City profiles** — Does your city have a convention center? What neighborhood is it in? What was there before? What happened after? We need profiles for convention centers worldwide, using the same structured format.
+**Score your city.** If your city isn't in the dataset, score it. The [methodology](/commonscore/) explains the 16 dimensions, the formula, and the participation test. You need: availability (how many weeks/year), scale (how much capacity), and evidence (specific facilities, not vibes).
 
-**Financial research** — Convention center bond documents, audited financials, lodging tax data. We normalize it into comparable formats.
+**Challenge a ranking.** The CommonScore is a compass, not a directory. If a city feels too high or too low — if your lived experience says the ranking is wrong — that's the most valuable feedback. Tell us *why* and we'll recalibrate.
 
-**Urban planning analysis** — Theory entries connecting academic research to convention center placement. Diagnostic vs. prescriptive framing required.
+**Add what's missing.** Know a maker space, tool library, or community institution that would change a score? The kind of facility that shifts the needle — not a single venue, but a network or institution that represents real participation infrastructure.
 
-**Local knowledge** — Walk the block. What does the neighborhood around the convention center actually feel like at 7pm on a Tuesday? Photos welcome.
+**Financial research.** Convention center bond documents, audited financials, lodging tax data. The [Seattle](/cities/seattle/) section shows how deep this can go — but most cities have only a CommonScore, not a financial profile.
+
+**Walk the block.** What does the neighborhood around the convention center feel like at 7pm on a Tuesday? Field observations with photos are worth more than desk research.
 
 ## How to Contribute
 
-**If you use GitHub:** Fork the repository, add your entry in the correct section using the templates below, submit a pull request. Your name stays on the entry.
+**GitHub:** The almanac source is at [github.com/ivantohelpyou/convention-city-almanac](https://github.com/ivantohelpyou/convention-city-almanac). Fork, edit, submit a pull request.
 
-**If you don't:** Email ivan@conventioncityseattle.com with your contribution. Include sources for every factual claim.
-
-## Entry Templates
-
-### City Profile
-
-Every city entry needs:
-
-```yaml
----
-title: "City: Facility Name"
-weight: 100           # sort order
-date: 2026-04-01      # when you wrote this
-
-# Key metrics
-opened: 1988
-exhibit_sf: 176480
-walk_score: 97
-centrality: "in-cbd"  # in-cbd | near-cbd | peripheral | remote
-placement: "urban-core"  # urban-core | waterfront | edge-city | greenfield | island
-
-# Context
-prior_land_use: "What was on this site before?"
-neighborhood_now: "What's the neighborhood like today?"
-displacement: false    # Was a community displaced for this facility?
-
-# Sources (every claim needs one)
-sources:
-  - label: "Wikipedia"
-    url: "https://..."
-  - label: "City planning document"
-    url: "https://..."
-
-tags:
-  - convention-center
----
-
-## The Facility
-[Size, design, when opened, major renovations]
-
-## What Was Here Before
-[Prior land use, displacement history if any]
-
-## What's Here Now
-[Current neighborhood character, walkability, transit, retail, housing]
-
-## The Transformation
-[What changed because of this facility — or despite it]
-
-## Sources
-[Linked list of every document cited]
-```
+**Otherwise:** [Open an issue](https://github.com/ivantohelpyou/convention-city-almanac/issues) with your contribution. Include sources for every factual claim.
 
 ## Standards
 
 - **Every factual claim needs a source.** URL, document title, page number where applicable.
-- **Neutral tone.** The almanac describes; it doesn't argue. Save the arguments for the [Dispatch](https://dispatch.conventioncityseattle.com/).
+- **Participation, not consumption.** The CommonScore measures what you can *do*, not what you can *watch*. A restaurant is consumption. A food stall you operate is participation.
+- **Italicize unverified claims.** If you haven't confirmed it yourself, italicize it. Someone else will verify.
 - **Date your entry.** Things change. An entry written in 2026 may need updating in 2027.
-- **Acknowledge what you don't know.** "Data not available" is better than a guess.
-
-## Credit
-
-Contributors are credited by name on their entries. If you contribute substantially to the almanac, you'll be listed on the contributors page.
 
 ---
 
-*Questions? Email ivan@conventioncityseattle.com*
+*Questions? [Open an issue.](https://github.com/ivantohelpyou/convention-city-almanac/issues)*

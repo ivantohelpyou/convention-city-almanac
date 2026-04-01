@@ -1,5 +1,5 @@
 ---
-title: "Tacoma: Convention Center"
+title: "Tacoma Convention Center"
 weight: 10
 date: 2026-03-28
 lastmod: 2026-03-28

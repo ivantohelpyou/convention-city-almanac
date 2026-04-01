@@ -42,7 +42,7 @@ This is the planned-district failure mode: you can build density and transit wit
 
 ## CommonScore
 
-**[Copenhagen CommonScore: 23](/cities/copenhagen/commonscore/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/copenhagen/commonscore/).
+**[Copenhagen CommonScore: 23](/cities/copenhagen/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/copenhagen/).
 
 ---
 

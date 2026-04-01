@@ -37,4 +37,4 @@ Ordered by [default editorial weight](/commonscore/#weights):
 
 ## City Profiles
 
-Each [city page](/cities/) includes a [CommonScore](/commonscore/) with full 16-dimension scoring tables, evidence, and analysis.
+Each [city page](/cities/) includes a [CommonScore](/) with full 16-dimension scoring tables, evidence, and analysis.

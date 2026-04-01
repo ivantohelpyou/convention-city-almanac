@@ -9,11 +9,15 @@ ALMANAC = Path(__file__).parent
 CITIES = ALMANAC / "content" / "cities"
 
 def extract_score(city_dir):
-    """Extract CommonScore from a city's commonscore.md."""
+    """Extract CommonScore from a city's _index.md (or commonscore.md fallback)."""
     cs_file = city_dir / "commonscore.md"
-    if not cs_file.exists():
+    idx_file = city_dir / "_index.md"
+    if cs_file.exists():
+        text = cs_file.read_text()
+    elif idx_file.exists():
+        text = idx_file.read_text()
+    else:
         return None
-    text = cs_file.read_text()
     # Match "# CommonScore: CityName — NN"
     m = re.search(r'# CommonScore:.*?—\s*(\d+)', text)
     if m:
@@ -21,22 +25,30 @@ def extract_score(city_dir):
     return None
 
 def extract_title(city_dir):
-    """Extract city title from _index.md."""
+    """Extract city title from _index.md, stripping any existing rank prefix."""
     idx = city_dir / "_index.md"
     if not idx.exists():
         return city_dir.name.replace("-", " ").title()
     text = idx.read_text()
     m = re.search(r'^title:\s*(.+)$', text, re.MULTILINE)
     if m:
-        return m.group(1).strip().strip('"').strip("'")
+        title = m.group(1).strip().strip('"').strip("'")
+        # Strip all existing rank prefixes like "#1 " or "#18 "
+        while re.match(r'^#\d+\s+', title):
+            title = re.sub(r'^#\d+\s+', '', title)
+        return title
     return city_dir.name.replace("-", " ").title()
 
 def extract_top_dims(city_dir):
-    """Extract top 3 dimension scores from commonscore.md table."""
+    """Extract top 3 dimension scores from city page table."""
     cs_file = city_dir / "commonscore.md"
-    if not cs_file.exists():
+    idx_file = city_dir / "_index.md"
+    if cs_file.exists():
+        text = cs_file.read_text()
+    elif idx_file.exists():
+        text = idx_file.read_text()
+    else:
         return ""
-    text = cs_file.read_text()
     # Find table rows: | N | DimName | Wt | Avail | Scale | Score | ...
     dims = []
     for m in re.finditer(r'\|\s*\d+\s*\|\s*([^|]+)\|\s*\d+\s*\|\s*[\d.]+\s*\|\s*[\d.]+\s*\|\s*([\d.]+)\s*\|', text):
@@ -87,6 +99,13 @@ for city_dir in sorted(CITIES.iterdir()):
 # Sort by score descending
 cities.sort(key=lambda c: (-c["score"], c["title"]))
 
+# Assign ranks with ties
+for i, c in enumerate(cities):
+    if i == 0 or c["score"] < cities[i-1]["score"]:
+        c["rank"] = i + 1
+    else:
+        c["rank"] = cities[i-1]["rank"]
+
 # Generate leaderboard
 lb_lines = [
     "---",
@@ -109,7 +128,7 @@ lb_lines = [
 
 for i, c in enumerate(cities, 1):
     lb_lines.append(
-        f'| {i} | [**{c["title"]}**](/cities/{c["slug"]}/commonscore/) '
+        f'| {c["rank"]} | [**{c["title"]}**](/cities/{c["slug"]}/) '
         f'| **{c["score"]}** | {c["top_dims"]} | {c["cc"]} |'
     )
 
@@ -141,7 +160,7 @@ ci_lines = [
 ]
 
 for i, c in enumerate(cities, 1):
-    ci_lines.append(f'| {i} | [**{c["title"]}**](/cities/{c["slug"]}/) | **{c["score"]}** |')
+    ci_lines.append(f'| {c["rank"]} | [**{c["title"]}**](/cities/{c["slug"]}/) | **{c["score"]}** |')
 
 ci_lines.extend([
     "",
@@ -150,6 +169,28 @@ ci_lines.extend([
 
 (CITIES / "_index.md").write_text("\n".join(ci_lines) + "\n")
 
+# Update weight and title in each city's _index.md to match rank order
+for i, c in enumerate(cities, 1):
+    idx = CITIES / c["slug"] / "_index.md"
+    if idx.exists():
+        text = idx.read_text()
+        # Set weight to position (for sidebar ordering)
+        text = re.sub(r'^weight:\s*\d+', f'weight: {i}', text, count=1, flags=re.MULTILINE)
+        # Set title to include rank: "#1 Singapore"
+        text = re.sub(r'^title:\s*.+$', f'title: "#{c["rank"]} {c["title"]}"', text, count=1, flags=re.MULTILINE)
+        idx.write_text(text)
+
+# Also update cities without scores (e.g., Tacoma) — push to bottom
+for city_dir in sorted(CITIES.iterdir()):
+    if not city_dir.is_dir() or city_dir.name.startswith("_"):
+        continue
+    if not any(c["slug"] == city_dir.name for c in cities):
+        idx = city_dir / "_index.md"
+        if idx.exists():
+            text = idx.read_text()
+            text = re.sub(r'^weight:\s*\d+', f'weight: 99', text, count=1, flags=re.MULTILINE)
+            idx.write_text(text)
+
 print(f"Generated leaderboard + cities index for {len(cities)} cities")
 for i, c in enumerate(cities, 1):
-    print(f"  {i:2d}. {c['title']:20s} {c['score']}")
+    print(f"  #{c['rank']:2d}  {c['title']:20s} {c['score']}")

@@ -103,6 +103,30 @@ This is the Phoenix Comics pattern applied to fabrication: proven daily demand a
 
 ---
 
+## It doesn't have to be a convention center
+
+The dataset is organized around convention centers, but the CommonScore framework applies to any large underutilized space. Former factories, vacant office towers, old department stores, decommissioned industrial sites — the participation question is the same: *what if this building served the dimensions where the city scores lowest?*
+
+The precedents are already in the data:
+
+| Conversion | Original use | What it became | City |
+|---|---|---|---|
+| 798 Art District | Electronics factory | 400+ galleries and studios | Beijing |
+| Songshan Cultural Creative Park | Tobacco factory | Studios, workshops, performance | Taipei |
+| De Hallen | Tram depot | Food hall, cinema, maker store | Amsterdam |
+| NDSM Wharf | Shipyard | 250+ artist workspaces | Amsterdam |
+| Westergasfabriek | Gas factory | 17-building creative complex | Berlin |
+| Kaapelitehdas (Cable Factory) | Cable factory | Largest cultural center in Finland | Helsinki |
+| The Brewery | Pabst brewery | 120+ artist live/work lofts | Los Angeles |
+| Carriageworks | Railway workshop | Contemporary arts centre | Sydney |
+| Michigan Central | Train station | Ford mobility campus | Detroit |
+
+**But scale matters.** An art walk in a repurposed office building works at one scale — it's a proof of concept, like Phoenix Comics for gaming or the Capitol Hill Tool Library for fabrication. Art Basel in a convention center works at another — 268 galleries, 83,000 attendees, $640M in renovated facility. Songshan Creative Park (former tobacco factory) is closer to the second than the first: institutional-scale repurposing with government backing, permanent studios, year-round programming.
+
+The CommonScore doesn't prescribe which buildings to repurpose. It identifies which dimensions have the largest gap between proven demand and available space — and the gap analysis works whether the candidate building is a convention center, an empty Macy's, or a decommissioned power plant.
+
+---
+
 ## Geographic inequality shapes scores
 
 Cape Town (27) is the first city in the dataset where geographic inequality directly shapes the CommonScore. Participation infrastructure exists on both sides of the divide — Woodstock studios and township art projects, Sea Point pools and township sports clubs — but the distribution is uneven in ways other cities don't face at the same scale.

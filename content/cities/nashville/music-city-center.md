@@ -56,4 +56,4 @@ The convention center works commercially — ~305 events/year, 45% of potential 
 
 ## CommonScore
 
-**[Nashville CommonScore: 14](/cities/nashville/commonscore/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/nashville/commonscore/).
+**[Nashville CommonScore: 14](/cities/nashville/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/nashville/).

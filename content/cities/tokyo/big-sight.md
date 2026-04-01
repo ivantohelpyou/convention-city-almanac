@@ -65,6 +65,6 @@ The deliberate isolation model produces a facility that works for large trade sh
 
 ## CommonScore
 
-**[Tokyo CommonScore: 28](/cities/tokyo/commonscore/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/tokyo/commonscore/).
+**[Tokyo CommonScore: 28](/cities/tokyo/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/tokyo/).
 
 Tokyo Big Sight's distinctive pattern: the building itself periodically *becomes* participation space. Comiket is the world's largest participatory market — anyone can apply for a booth. Design Festa and Maker Faire follow the same model. But between those events, Ariake is a dead zone. Japan's extraordinary participation infrastructure (kuminkan, shotengai, maker cafes, rehearsal studios) exists abundantly — just not here.

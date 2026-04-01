@@ -47,7 +47,7 @@ The convention center sits in a transitional zone between Nangang Software Park 
 
 ## CommonScore
 
-**[Taipei CommonScore: 28](/cities/taipei/commonscore/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/taipei/commonscore/).
+**[Taipei CommonScore: 28](/cities/taipei/)** — city-wide participation space measurement. Full 16-dimension scoring table on the [CommonScore page](/cities/taipei/).
 
 ---
 
