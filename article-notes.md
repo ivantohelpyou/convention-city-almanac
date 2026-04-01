@@ -44,9 +44,13 @@ The convention center contributes 16% of Seattle's score today (Industry + Mega 
 
 ## The Macy's Fallback
 
-If the Arch isn't available: Macy's at 3rd & Pine. 300,000+ sq ft, downtown core, blocks from the Arch. Same framework applies. "You don't want to give us the Arch? Fine."
+If the Arch isn't available: Macy's at 3rd & Pine. 300,000+ sq ft, downtown core, blocks from the Arch. "You don't want to give us the Arch? Fine."
 
-The CommonScore doesn't prescribe which building. It identifies which dimensions have the largest gap between proven demand and available space. The gap analysis works whether the candidate is a convention center, an empty department store, or a decommissioned power plant.
+But the Macy's can't do everything the Arch can. No loading docks. No high-bay ceilings. No freight elevators. Retail floors with escalators and 10-foot ceilings. That rules out the dimensions where the Arch is uniquely suited: maker labs, robotics (MassRobotics-style high-bay prototyping), indoor markets at convention scale.
+
+What the Macy's CAN do: civic meeting rooms, education classrooms, art studios, gaming halls, wellness spaces, community theater, senior programming — dimensions that work in conventional commercial space. That's still a 27→35 argument, maybe 38. Not 50.
+
+**This is why the Arch matters.** The building has physical infrastructure — loading docks, industrial kitchens, acoustically isolated rooms, 40-foot ceilings — that no other available building in downtown Seattle has. The Macy's is a plan B for half the dimensions. The Arch is plan A for all of them.
 
 ## The Precedents Table
 
