@@ -31,15 +31,9 @@ copyright = '© 2026 Ivan Schneider · <a href="https://conventioncityseattle.co
     url = "/commonscore/"
     weight = 2
   [[menu.before]]
-    name = "Themes"
-    url = "/themes/"
-    weight = 3
-    [menu.before.params]
-      class = "book-menu-indent"
-  [[menu.before]]
     name = "Findings"
     url = "/findings/"
-    weight = 4
+    weight = 3
   [[menu.before]]
     name = "Cities"
     url = "/cities/"
