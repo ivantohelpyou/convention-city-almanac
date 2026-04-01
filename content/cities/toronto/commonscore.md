@@ -9,16 +9,16 @@ tags:
   - commonscore
 ---
 
-# CommonScore: Toronto — 30
+# CommonScore: Toronto — 35
 
-**CommonScore: 30.**
+**CommonScore: 35.**
 
 *Claims in italics are unverified and may be incorrect.*
 
 | # | Dimension | Wt | Avail | Scale | Score | Evidence |
 |---|---|---|---|---|---|---|
 | 1 | Food | 11 | 0.7 | 0.4 | 3.1 | St. Lawrence Market (vendor stalls). *Food trucks.* Farmers markets. |
-| 2 | Civic | 11 | 0.9 | 0.5 | 5.0 | **Toronto Public Library — 100 branches.** Community centres across the city. Strong municipal civic infrastructure. One of the largest urban library systems in the world. |
+| 2 | Civic | 11 | 0.9 | 0.6 | 5.9 | **Toronto Public Library — 100 branches.** Community centres across the city. Strong municipal civic infrastructure. One of the largest urban library systems in the world. |
 | 3 | Education | 9 | 0.7 | 0.4 | 2.5 | *George Brown College, TMU continuing ed.* Community education. |
 | 4 | Arts | 7 | 0.7 | 0.3 | 1.5 | *OCAD.* Artist-run centres. Studio spaces. |
 | 5 | Music | 7 | 0.7 | 0.3 | 1.5 | *Horseshoe Tavern, Cameron House, Lee's Palace.* Open mics. Rehearsal studios. Toronto's music scene is solid. |
@@ -34,7 +34,7 @@ tags:
 | 15 | Sports | 2 | 0.5 | 0.3 | 0.3 | *Rec leagues, pickup, cycling.* |
 | 16 | Mega | 3 | 0.7 | 0.7 | 1.5 | MTCC. TIFF (Toronto International Film Festival). |
 
-**Dimension scores = Wt × Avail × Scale. Total: 30 → CommonScore 30.**
+**Dimension scores = Wt × Avail × Scale. Total: 35 → CommonScore 35.**
 
 ---
 

@@ -9,9 +9,9 @@ tags:
   - commonscore
 ---
 
-# CommonScore: Barcelona — 34
+# CommonScore: Barcelona — 36
 
-**CommonScore: 34.**
+**CommonScore: 36.**
 
 *Claims in italics are unverified and may be incorrect.*
 
@@ -34,7 +34,7 @@ tags:
 | 15 | Sports | 2 | 0.6 | 0.4 | 0.5 | *Poliesportius (community sports centres).* Beach sports. Cycling. |
 | 16 | Mega | 3 | 0.8 | 0.8 | 1.9 | Fira Barcelona. MWC. |
 
-**Dimension scores = Wt × Avail × Scale. Total: 34 → CommonScore 34.**
+**Dimension scores = Wt × Avail × Scale. Total: 36 → CommonScore 36.**
 
 ---
 

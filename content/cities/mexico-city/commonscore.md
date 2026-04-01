@@ -9,15 +9,15 @@ tags:
   - commonscore
 ---
 
-# CommonScore: Mexico City — 35
+# CommonScore: Mexico City — 38
 
-**CommonScore: 35.**
+**CommonScore: 38.**
 
 *Claims in italics are unverified and may be incorrect.*
 
 | # | Dimension | Wt | Avail | Scale | Score | Evidence |
 |---|---|---|---|---|---|---|
-| 1 | Food | 11 | 1.0 | 0.7 | 7.7 | **Tianguis** (informal markets with food stalls — thousands across the city, daily). *Mercados municipales (320+).* Central de Abasto (largest wholesale market in the world). Street food vendor culture at a scale that dwarfs any other city in the dataset. |
+| 1 | Food | 11 | 1.0 | 0.8 | 8.8 | **Tianguis** (informal markets with food stalls — thousands across the city, daily). *Mercados municipales (320+).* Central de Abasto (largest wholesale market in the world). Street food vendor culture at a scale that dwarfs any other city in the dataset. |
 | 2 | Civic | 11 | 0.7 | 0.5 | 3.9 | **PILARES** (Puntos de Innovación, Libertad, Arte, Educación y Saberes — 300+ community centres built since 2019). *Casas de cultura.* Libraries. Massive recent government investment in community infrastructure. |
 | 3 | Education | 9 | 0.8 | 0.6 | 4.3 | **UNAM** (largest university in Latin America, ~350K students). *PILARES education programs.* Community education at casas de cultura. Free public university system. |
 | 4 | Arts | 7 | 0.7 | 0.4 | 2.0 | *Casa de cultura network.* Coyoacán studios. *San Rafael artist community.* Muralism workshop tradition. Community arts through PILARES. |
@@ -34,7 +34,7 @@ tags:
 | 15 | Sports | 2 | 0.7 | 0.5 | 0.7 | **Deportivos** — public sports centres with courts, pools, tracks at massive scale. *Pickup soccer everywhere.* Ecobici cycling. |
 | 16 | Mega | 3 | 0.6 | 0.6 | 1.1 | Convention centre events at moderate scale. |
 
-**Dimension scores = Wt × Avail × Scale. Total: 35 → CommonScore 35.**
+**Dimension scores = Wt × Avail × Scale. Total: 38 → CommonScore 38.**
 
 ---
 

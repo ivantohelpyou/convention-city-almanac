@@ -9,9 +9,9 @@ tags:
   - commonscore
 ---
 
-# CommonScore: Melbourne — 28
+# CommonScore: Melbourne — 35
 
-**CommonScore: 28.**
+**CommonScore: 35.**
 
 *Claims in italics are unverified and may be incorrect.*
 
@@ -21,7 +21,7 @@ tags:
 | 2 | Civic | 11 | 0.8 | 0.4 | 3.5 | State Library of Victoria. City of Melbourne libraries. **Neighbourhood Houses** (400+ across Victoria — community-managed, offer education, meals, social programs). |
 | 3 | Education | 9 | 0.7 | 0.4 | 2.5 | *TAFE.* Neighbourhood House courses. University continuing ed. |
 | 4 | Arts | 7 | 0.7 | 0.4 | 2.0 | *Gertrude Contemporary, Collingwood studios.* Artist-run initiatives. Open studios. Strong arts community. |
-| 5 | Music | 7 | 0.7 | 0.3 | 1.5 | *The Tote, Corner Hotel, Northcote Social Club.* Melbourne's live music scene is strong — open mics, rehearsal studios. |
+| 5 | Music | 7 | 0.8 | 0.6 | 3.4 | *The Tote, Corner Hotel, Northcote Social Club.* Melbourne's live music scene is strong — open mics, rehearsal studios. |
 | 6 | Makers | 7 | 0.5 | 0.2 | 0.7 | *Melbourne Makerspace, Connected Community HackerSpace.* |
 | 7 | Industry | 7 | 0.6 | 0.6 | 2.5 | MCEC (~300K sq ft). Convention events. |
 | 8 | Markets | 7 | 0.8 | 0.5 | 2.8 | QVM (600+ traders). *South Melbourne Market, Camberwell Market.* Strong market culture. |
@@ -32,9 +32,9 @@ tags:
 | 13 | Gaming | 4 | 0.7 | 0.3 | 0.8 | **Fortress Melbourne** (*possibly world's largest board game venue*). Board game cafes. |
 | 14 | Theater | 4 | 0.7 | 0.4 | 1.1 | **Melbourne Fringe Festival.** Community theater. Strong independent scene. |
 | 15 | Sports | 2 | 0.7 | 0.4 | 0.6 | *Parkrun.* AFL participation (not just spectating — community footy). Cricket clubs. Cycling. |
-| 16 | Mega | 3 | 0.7 | 0.6 | 1.3 | MCEC events. *Australian Open.* |
+| 16 | Mega | 3 | 0.9 | 0.8 | 2.2 | MCEC events. *Australian Open.* |
 
-**Dimension scores = Wt × Avail × Scale. Total: 28 → CommonScore 28.**
+**Dimension scores = Wt × Avail × Scale. Total: 35 → CommonScore 35.**
 
 ---
 
