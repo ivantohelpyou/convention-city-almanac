@@ -183,19 +183,7 @@ They're complementary. WalkScore says the neighborhood works. CommonScore says t
 
 ## City Scores
 
-### Seattle (Worked Example)
-
-**Walk Score: 98 (downtown). [CommonScore: 27](/cities/seattle/).**
-
-The convention center contributes 16% of Seattle's score (Industry Networking + Mega-Events). The other 84% was built by libraries, community centers, markets, makerspaces, music venues, and parks.
-
-Full 16-dimension table with evidence: **[Seattle CommonScore page](/cities/seattle/)**.
-
----
-
-### All City Scores
-
-Full dimension-level scoring tables are on each city's CommonScore page. Full rankings on the **[leaderboard](/commonscore/leaderboard/)**.
+Full rankings on the **[leaderboard](/commonscore/leaderboard/)**. Dimension-level scoring tables on each city's page.
 
 ---
 
