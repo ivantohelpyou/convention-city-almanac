@@ -27,8 +27,6 @@ copyright = '© 2026 Ivan Schneider · <a href="https://conventioncityseattle.co
     url = "/cities/"
     weight = 1
   [[menu.before]]
-    name = "Theory"
-    url = "/theory/"
     weight = 2
   [[menu.before]]
     name = "Themes"
@@ -46,7 +44,6 @@ copyright = '© 2026 Ivan Schneider · <a href="https://conventioncityseattle.co
       class = "book-menu-indent"
   [[menu.before]]
     name = "Findings"
-    url = "/findings/"
     weight = 6
 
   [[menu.after]]

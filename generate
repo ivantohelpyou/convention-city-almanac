@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+"""Generate leaderboard and update city index from CommonScore pages."""
+
+import re
+import os
+from pathlib import Path
+
+ALMANAC = Path(__file__).parent
+CITIES = ALMANAC / "content" / "cities"
+
+def extract_score(city_dir):
+    """Extract CommonScore from a city's commonscore.md."""
+    cs_file = city_dir / "commonscore.md"
+    if not cs_file.exists():
+        return None
+    text = cs_file.read_text()
+    # Match "# CommonScore: CityName — NN"
+    m = re.search(r'# CommonScore:.*?—\s*(\d+)', text)
+    if m:
+        return int(m.group(1))
+    return None
+
+def extract_title(city_dir):
+    """Extract city title from _index.md."""
+    idx = city_dir / "_index.md"
+    if not idx.exists():
+        return city_dir.name.replace("-", " ").title()
+    text = idx.read_text()
+    m = re.search(r'^title:\s*(.+)$', text, re.MULTILINE)
+    if m:
+        return m.group(1).strip().strip('"').strip("'")
+    return city_dir.name.replace("-", " ").title()
+
+def extract_top_dims(city_dir):
+    """Extract top 3 dimension scores from commonscore.md table."""
+    cs_file = city_dir / "commonscore.md"
+    if not cs_file.exists():
+        return ""
+    text = cs_file.read_text()
+    # Find table rows: | N | DimName | Wt | Avail | Scale | Score | ...
+    dims = []
+    for m in re.finditer(r'\|\s*\d+\s*\|\s*([^|]+)\|\s*\d+\s*\|\s*[\d.]+\s*\|\s*[\d.]+\s*\|\s*([\d.]+)\s*\|', text):
+        name = m.group(1).strip()
+        score = float(m.group(2))
+        dims.append((score, name))
+    dims.sort(reverse=True)
+    return ", ".join(f"{name} ({score})" for score, name in dims[:3])
+
+def extract_convention_center(city_dir):
+    """Extract convention center info from _index.md."""
+    idx = city_dir / "_index.md"
+    if not idx.exists():
+        return ""
+    text = idx.read_text()
+    # Look for lines with sq ft or sqm
+    for line in text.split("\n"):
+        if "sq ft" in line.lower() or "sqm" in line.lower():
+            # Extract the bold name
+            m = re.search(r'\*\*([^*]+)\*\*', line)
+            if m:
+                name = m.group(1)
+                # Extract size
+                sm = re.search(r'~?([\d,]+[KM]?\s*sq\s*(?:ft|m))', line, re.IGNORECASE)
+                size = f" ({sm.group(0).strip()})" if sm else ""
+                return f"{name}{size}"
+    return ""
+
+# Collect all cities with scores
+cities = []
+for city_dir in sorted(CITIES.iterdir()):
+    if not city_dir.is_dir() or city_dir.name.startswith("_"):
+        continue
+    score = extract_score(city_dir)
+    if score is not None:
+        title = extract_title(city_dir)
+        slug = city_dir.name
+        top_dims = extract_top_dims(city_dir)
+        cc = extract_convention_center(city_dir)
+        cities.append({
+            "title": title,
+            "slug": slug,
+            "score": score,
+            "top_dims": top_dims,
+            "cc": cc,
+        })
+
+# Sort by score descending
+cities.sort(key=lambda c: (-c["score"], c["title"]))
+
+# Generate leaderboard
+lb_lines = [
+    "---",
+    'title: "CommonScore Leaderboard"',
+    "weight: 10",
+    "date: 2026-04-01",
+    "lastmod: 2026-04-01",
+    "bookToC: true",
+    "---",
+    "",
+    "# CommonScore Leaderboard",
+    "",
+    f"City-wide participation space scores. [Methodology](/commonscore/). {len(cities)} cities scored.",
+    "",
+    "## Rankings",
+    "",
+    "| Rank | City | Score | Top dimensions | Convention center |",
+    "|---|---|---|---|---|",
+]
+
+for i, c in enumerate(cities, 1):
+    lb_lines.append(
+        f'| {i} | [**{c["title"]}**](/cities/{c["slug"]}/commonscore/) '
+        f'| **{c["score"]}** | {c["top_dims"]} | {c["cc"]} |'
+    )
+
+lb_lines.extend([
+    "",
+    "---",
+    "",
+    "*[CommonScore methodology](/commonscore/) | [All cities](/cities/)*",
+    "",
+    f'*Last updated 2026-04-01. CommonScore — city-wide participation space model. {len(cities)} cities scored.*',
+])
+
+(ALMANAC / "content" / "commonscore" / "leaderboard.md").write_text("\n".join(lb_lines) + "\n")
+
+# Generate cities _index.md with ranking
+ci_lines = [
+    "---",
+    "title: Cities",
+    "weight: 1",
+    "bookCollapseSection: false",
+    "---",
+    "",
+    "# Cities",
+    "",
+    f"{len(cities)} cities scored on [CommonScore](/commonscore/) — city-wide participation space measurement across 16 dimensions.",
+    "",
+    "| Rank | City | CommonScore |",
+    "|---|---|---|",
+]
+
+for i, c in enumerate(cities, 1):
+    ci_lines.append(f'| {i} | [**{c["title"]}**](/cities/{c["slug"]}/) | **{c["score"]}** |')
+
+ci_lines.extend([
+    "",
+    f"Full rankings with dimension breakdowns on the [leaderboard](/commonscore/leaderboard/).",
+])
+
+(CITIES / "_index.md").write_text("\n".join(ci_lines) + "\n")
+
+print(f"Generated leaderboard + cities index for {len(cities)} cities")
+for i, c in enumerate(cities, 1):
+    print(f"  {i:2d}. {c['title']:20s} {c['score']}")

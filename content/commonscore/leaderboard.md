@@ -8,71 +8,47 @@ bookToC: true
 
 # CommonScore Leaderboard
 
-City-wide participation space scores. [Methodology](/commonscore/). 23 cities scored.
+City-wide participation space scores. [Methodology](/commonscore/). 32 cities scored.
 
 ## Rankings
 
 | Rank | City | Score | Top dimensions | Convention center |
 |---|---|---|---|---|
-| 1 | [**New York**](/cities/new-york/commonscore/) | **38** | Education (5.7), Civic (5.9), Food (5.9) | Javits (675K sq ft) |
-| 2 | [**Seoul**](/cities/seoul/commonscore/) | **37** | Civic (5.0), Industry (3.9), Makers (3.4) | COEX + KINTEX |
-| 3 | [**Boston**](/cities/boston/commonscore/) | **32** | Civic (5.9), Education (4.9), Industry (3.4) | Hynes + BCEC |
-| 4 | [**Amsterdam**](/cities/amsterdam/commonscore/) | **32** | Industry (4.5), Civic (4.4), Arts (3.8) | RAI (915K sq ft) |
-| 5 | [**Los Angeles**](/cities/los-angeles/commonscore/) | **32** | Food (5.0), Civic (4.4), Education (4.3) | LA CC (720K sq ft) |
-| 6 | [**Helsinki**](/cities/helsinki/commonscore/) | **30** | Civic (7.7), Education (2.9), Arts (2.8) | Messukeskus (516K sq ft) |
-| 7 | [**Washington DC**](/cities/dc/commonscore/) | **30** | Civic (5.9), Education (3.6), Industry (3.4) | Walter E. Washington (703K sq ft) |
-| 8 | [**Taipei**](/cities/taipei/commonscore/) | **28** | Food (5.5), Markets (4.9), Industry (3.4) | TaiNEX (460K sq ft) |
-| 9 | [**Tokyo**](/cities/tokyo/commonscore/) | **28** | Food (5.0), Industry (3.9), Civic (3.5) | Big Sight + Makuhari |
-| 10 | [**Austin**](/cities/austin/commonscore/) | **27** | Food (5.0), Civic (3.1), Industry (2.9) | Austin CC (expanding to 710K) |
-| 11 | [**Seattle**](/cities/seattle/commonscore/) | **27** | Markets (4.9), Civic (3.5), Food (3.5) | WSCC Arch + Summit |
-| 12 | [**Chicago**](/cities/chicago/commonscore/) | **26** | Industry (5.0), Civic (4.4), Education (2.5) | McCormick Place (2.6M sq ft) |
-| 13 | [**Miami**](/cities/miami/commonscore/) | **26** | Education (3.6), Civic (3.5), Industry (3.4) | MBCC (500K sq ft) |
-| 14 | [**Sydney**](/cities/sydney/commonscore/) | **25** | Civic (3.5), Industry (3.4), Food (3.1) | ICC Sydney (355K sq ft) |
-| 15 | [**Medellín**](/cities/medellin/commonscore/) | **24** | Food (4.4), Education (3.6), Markets (2.8) | Plaza Mayor (260K sq ft) |
-| 16 | [**Pittsburgh**](/cities/pittsburgh/commonscore/) | **24** | Education (3.2), Civic (3.1), Robotics (2.1) | David L. Lawrence (313K sq ft) |
-| 17 | [**Portland**](/cities/portland/commonscore/) | **24** | Food (5.0), Civic (3.1), Markets (2.8) | Oregon CC (255K sq ft) |
-| 18 | [**Copenhagen**](/cities/copenhagen/commonscore/) | **23** | Civic (4.4), Food (3.1), Education (2.5) | Bella Center (240K sq ft) |
-| 19 | [**Denver**](/cities/denver/commonscore/) | **23** | Civic (4.4), Industry (2.5), Markets (2.1) | Colorado CC (584K sq ft) |
-| 20 | [**Vancouver**](/cities/vancouver/commonscore/) | **22** | Civic (3.5), Industry (3.4), Food (3.1) | VCC (466K sq ft) |
-| 21 | [**Detroit**](/cities/detroit/commonscore/) | **20** | Industry (2.5), Civic (2.0), Arts (2.0) | Huntington Place (723K sq ft) |
-| 22 | [**San Diego**](/cities/san-diego/commonscore/) | **20** | Civic (3.9), Industry (3.4), Education (2.2) | SD CC (615K sq ft) |
-| 23 | [**Nashville**](/cities/nashville/commonscore/) | **14** | Music (2.8), Industry (2.5), Civic (1.7) | Music City Center |
-
----
-
-## What the Rankings Show
-
-**Civic infrastructure dominates.** In 18 of 21 cities, Civic & Community is the top or second dimension. Cities with strong public library systems (New York, Boston, DC, Helsinki, Amsterdam) lead the rankings. Libraries with meeting rooms, maker spaces, and event halls are the closest existing model to a commons.
-
-**Convention center size doesn't predict score.** McCormick Place (2.6M sq ft, largest in North America) scores 26. Oodi (185K sq ft, not even a convention center) helps Helsinki score 30. The building's *programming* matters more than its *size*.
-
-**Three global models emerge:**
-
-| Model | Cities | What it looks like |
-|---|---|---|
-| **Institutional depth** | New York, Boston, Seoul | Libraries, universities, dense public infrastructure |
-| **Intentional policy** | Amsterdam, Helsinki | Broedplaatsen, Oodi — municipal investment in participation space |
-| **Organic/distributed** | Taipei, Portland, Medellín | Night markets, food carts, community-built participation |
-
-**Seoul is the surprise.** PC bangs (1,800 gaming venues), jjimjilbang (public baths as social infrastructure), Sewoon Sangga (vertical maker district), 경로당 (densest senior center network globally) — Seoul's participation infrastructure is extraordinary and deeply embedded in daily life. It scores second only to New York.
-
-## Score Distribution
-
-```
-60-100  ░░░ Commons model (no city yet)
-40-59   ░░░ Strong participation (no city yet)
-37-38   ██▓ New York, Seoul
-30-32   ███ Boston, Amsterdam, LA, Helsinki, DC
-27-28   ███ Taipei, Tokyo, Austin, Seattle
-23-26   ███ Chicago, Miami, Sydney, Medellín, Pittsburgh, Portland, Copenhagen, Denver, Vancouver
-20-22   ██░ Detroit, San Diego
-14      █░░ Nashville
-```
-
-**No city has broken 40.** The gap between 38 (New York) and 60 is where the commons argument lives. A single building — like Oodi (€98M) or a converted convention center — can close 10–20 points of that gap.
+| 1 | [**London**](/cities/london/commonscore/) | **38** | Civic (5.9), Education (4.9), Industry (4.5) | ExCeL London (~1,000,000 sq ft) |
+| 2 | [**New York**](/cities/new-york/commonscore/) | **38** | Food (5.9), Civic (5.9), Education (5.7) | [Javits Center](/cities/new-york/javits/) (675,000 sq ft) |
+| 3 | [**Beijing**](/cities/beijing/commonscore/) | **37** | Food (5.9), Industry (4.5), Civic (4.4) | China National Convention Center (CNCC) (~700,000 sq ft) |
+| 4 | [**Seoul**](/cities/seoul/commonscore/) | **37** | Civic (5.0), Industry (3.9), Education (3.6) | COEX Convention & Exhibition Center (~360,000 sq ft) |
+| 5 | [**Mexico City**](/cities/mexico-city/commonscore/) | **35** | Food (7.7), Markets (5.6), Education (4.3) | Centro Citibanamex (~350,000 sq ft) |
+| 6 | [**Singapore**](/cities/singapore/commonscore/) | **35** | Food (7.7), Industry (4.5), Civic (4.4) | Sands Expo & Convention Centre (~120,000 sqm) |
+| 7 | [**Barcelona**](/cities/barcelona/commonscore/) | **34** | Food (5.9), Industry (4.5), Civic (4.4) | Fira Barcelona (~400,000 sqm) |
+| 8 | [**Berlin**](/cities/berlin/commonscore/) | **33** | Education (4.9), Civic (4.4), Industry (3.4) | Messe Berlin (~1,700,000 sq ft) |
+| 9 | [**Amsterdam**](/cities/amsterdam/commonscore/) | **32** | Industry (4.5), Food (4.4), Civic (4.4) | RAI Amsterdam (~915,000 sq ft) |
+| 10 | [**Boston**](/cities/boston/commonscore/) | **32** | Civic (5.9), Education (4.9), Industry Networking (3.4) | [Hynes Convention Center](/cities/boston/hynes/) (176,480 sq ft) |
+| 11 | [**Los Angeles**](/cities/los-angeles/commonscore/) | **32** | Food (5.0), Civic (4.4), Education (4.3) | Los Angeles Convention Center (~720,000 sq ft) |
+| 12 | [**Helsinki**](/cities/helsinki/commonscore/) | **30** | Civic (7.7), Education (2.9), Arts (2.8) | [Messukeskus Helsinki Expo and Convention Centre](/cities/helsinki/convention-center/) (~516,000 sq ft) |
+| 13 | [**Toronto**](/cities/toronto/commonscore/) | **30** | Civic (5.0), Industry (3.4), Food (3.1) | Metro Toronto Convention Centre (~600,000 sq ft) |
+| 14 | [**Washington DC**](/cities/dc/commonscore/) | **30** | Civic (5.9), Education (3.6), Industry Networking (3.4) | Walter E. Washington Convention Center (703,000 sq ft) |
+| 15 | [**Melbourne**](/cities/melbourne/commonscore/) | **28** | Food (4.4), Civic (3.5), Markets (2.8) | Melbourne Convention and Exhibition Centre (MCEC) (~300,000 sq ft) |
+| 16 | [**Taipei**](/cities/taipei/commonscore/) | **28** | Food (5.5), Markets (4.9), Industry Networking (3.4) | [Taipei Nangang Exhibition Center (TaiNEX)](/cities/taipei/convention-center/) (~460,000 sq ft) |
+| 17 | [**Tokyo**](/cities/tokyo/commonscore/) | **28** | Food (5.0), Industry Networking (3.9), Civic (3.5) | [Tokyo Big Sight](/cities/tokyo/big-sight/) (1,242,000 sq ft) |
+| 18 | [**Austin**](/cities/austin/commonscore/) | **27** | Food (5.0), Civic (3.1), Industry (2.9) | Austin Convention Center (~247,000 sq ft) |
+| 19 | [**Seattle**](/cities/seattle/commonscore/) | **27** | Markets (4.9), Food (3.5), Civic (3.5) | [The Arch](/cities/seattle/the-arch/) (236,700 sq ft) |
+| 20 | [**Chicago**](/cities/chicago/commonscore/) | **26** | Industry Networking (5.0), Civic (4.4), Education (2.5) | McCormick Place (2,600,000 sq ft) |
+| 21 | [**Miami**](/cities/miami/commonscore/) | **26** | Education (3.6), Civic (3.5), Industry (3.4) | Miami Beach Convention Center (~500,000 sq ft) |
+| 22 | [**Sydney**](/cities/sydney/commonscore/) | **25** | Civic (3.5), Industry (3.4), Food (3.1) | International Convention Centre Sydney (ICC) (~355,000 sq ft) |
+| 23 | [**Medellín**](/cities/medellin/commonscore/) | **24** | Food (4.4), Education (3.6), Markets (2.8) | Plaza Mayor Medellín (~260,000 sq ft) |
+| 24 | [**Pittsburgh**](/cities/pittsburgh/commonscore/) | **24** | Education (3.2), Civic (3.1), Robotics (2.1) | [David L. Lawrence Convention Center](/cities/pittsburgh/convention-center/) (313,000 sq ft) |
+| 25 | [**Portland**](/cities/portland/commonscore/) | **24** | Food (5.0), Civic (3.1), Markets (2.8) | Oregon Convention Center (~255,000 sq ft) |
+| 26 | [**Copenhagen**](/cities/copenhagen/commonscore/) | **23** | Civic (4.4), Food (3.1), Education (2.5) | [Bella Center Copenhagen](/cities/copenhagen/convention-center/) (~240,000 sq ft) |
+| 27 | [**Denver**](/cities/denver/commonscore/) | **23** | Civic (4.4), Industry (2.5), Markets (2.1) | Colorado Convention Center (~584,000 sq ft) |
+| 28 | [**Vancouver**](/cities/vancouver/commonscore/) | **22** | Civic (3.5), Industry Networking (3.4), Food (3.1) | [Vancouver Convention Centre](/cities/vancouver/convention-centre/) (466,500 sq ft) |
+| 29 | [**Cape Town**](/cities/cape-town/commonscore/) | **20** | Industry (2.5), Education (2.2), Food (2.0) | Cape Town International Convention Centre (CTICC) (~120,000 sqm) |
+| 30 | [**Detroit**](/cities/detroit/commonscore/) | **20** | Industry Networking (2.5), Civic (2.0), Arts (2.0) | [Huntington Place](/cities/detroit/convention-center/) (723,000 sq ft) |
+| 31 | [**San Diego**](/cities/san-diego/commonscore/) | **20** | Civic (3.9), Industry (3.4), Education (2.2) | San Diego Convention Center (~615,700 sq ft) |
+| 32 | [**Nashville**](/cities/nashville/commonscore/) | **14** | Music (2.8), Industry Networking (2.5), Civic (1.7) | [Music City Center](/cities/nashville/music-city-center/) (353,000 sq ft) |
 
 ---
 
 *[CommonScore methodology](/commonscore/) | [All cities](/cities/)*
 
-*Last updated 2026-04-01. CommonScore — city-wide participation space model. 23 cities scored.*
+*Last updated 2026-04-01. CommonScore — city-wide participation space model. 32 cities scored.*
