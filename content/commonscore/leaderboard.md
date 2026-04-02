@@ -33,7 +33,7 @@ City-wide participation space scores. [Methodology](/commonscore/). 32 cities sc
 | 16 | [**Tokyo**](/cities/tokyo/) | **28** | Food (5.0), Industry Networking (3.9), Civic (3.5) | [Tokyo Big Sight](/cities/tokyo/big-sight/) (1,242,000 sq ft) |
 | 18 | [**Austin**](/cities/austin/) | **27** | Food (5.0), Civic (3.1), Industry (2.9) | Austin Convention Center (~247,000 sq ft) |
 | 18 | [**Cape Town**](/cities/cape-town/) | **27** | Food (4.4), Arts (2.8), Industry (2.5) | Cape Town International Convention Centre (CTICC) (~120,000 sqm) |
-| 18 | [**Seattle**](/cities/seattle/) | **27** | Markets (4.9), Food (3.5), Civic (3.5) | [The Arch](/cities/seattle/the-arch/) (236,700 sq ft) |
+| 18 | [**Seattle**](/cities/seattle/) | **27** | Markets (4.9), Food (3.5), Civic (3.5) | [The Arch](/cities/seattle/the-arch/) (236,700 sq ft) + [The Summit](/cities/seattle/the-summit/) (149,200 sq ft) |
 | 21 | [**Chicago**](/cities/chicago/) | **26** | Industry Networking (5.0), Civic (4.4), Education (2.5) | McCormick Place (2,600,000 sq ft) |
 | 21 | [**Miami**](/cities/miami/) | **26** | Education (3.6), Civic (3.5), Industry (3.4) | Miami Beach Convention Center (~500,000 sq ft) |
 | 23 | [**Sydney**](/cities/sydney/) | **25** | Civic (3.5), Industry (3.4), Food (3.1) | International Convention Centre Sydney (ICC) (~355,000 sq ft) |
