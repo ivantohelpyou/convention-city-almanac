@@ -66,7 +66,7 @@ Unlike Seattle's convention center (which sits on a freeway lid in the center of
 | **B Line RapidRide** | NE 6th St | Frequent bus across Bellevue |
 | **I-90 / SR 520** | — | Cross-lake freeway access |
 
-The 2 Line opened 2024, connecting Bellevue directly to Seattle's downtown stations for the first time. A convention attendee at Meydenbauer can reach the Arch in Seattle via light rail without a car.
+The 2 Line opened in 2024, connecting Bellevue to Seattle's Eastside stations. The Crosslink opened in March 2026, completing the through-route to downtown Seattle. A convention attendee at Meydenbauer can now reach the Arch via light rail without a car.
 
 ## Hotels
 
