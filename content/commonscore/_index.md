@@ -46,7 +46,7 @@ Each dimension is measured on two axes:
 
 ### Weekly Availability
 
-The probability that this activity is available in any given week of the year, in or near the convention center district.
+The probability that this activity is available in any given week of the year, city-wide.
 
 | Value | Meaning | Examples |
 |---|---|---|
@@ -121,8 +121,8 @@ The editorial weights encode a position about what a functioning commons should 
 | 8 | Markets & Seasonal | **7** | Weekly/seasonal rhythm through large open spaces. Vendor participation, not shopping. |
 | 9 | Kids & Families | **6** | $500 vs. $10,000 for a recital hall is the difference between access and exclusion. |
 | 10 | Robotics & Innovation | **6** | Proven across [Boston](/cities/boston/massrobotics/), [Pittsburgh](/cities/pittsburgh/cmu-robotics/), [Detroit](/cities/detroit/michigan-central/). |
-| 11 | Wellness | **5** | Low-cost, high-need. Shower facilities and quiet rooms already exist in convention centers. |
-| 12 | Seniors | **4** | Adjacency programming. In Seattle, Horizon House residents are 3 blocks from the Arch. |
+| 11 | Wellness | **5** | Low-cost, high-need. Tokyo's 2,700 sentō serve all ages daily. Convention centers have large, underused interior spaces suited to wellness programming. |
+| 12 | Seniors | **4** | Underserved population with proven participation demand. Seoul's 경로당 network and Singapore's Senior Activity Centres show what systematic investment looks like. |
 | 13 | Gaming & Organized Play | **4** | Conventions do this well episodically. The commons adds the daily version. |
 | 14 | Theater & Film | **4** | Partnership model — overflow and fringe, not replacement. |
 | 15 | Sports & Fan Culture | **2** | Arenas exist. The commons adds civic gathering, not spectating. |
@@ -196,7 +196,7 @@ The CommonScore's policy output is a gap analysis per city. For each dimension, 
 | **Proven demand, needs space** | High | Low | People show up every night but run out of tables | Increase supply — demand is demonstrated |
 | **Proven scale, needs frequency** | Low | High | Massive when it happens, but only 1 week/year | Increase frequency — the audience is proven |
 | **Cross-city evidence** | Low | Low | Nothing here, but other cities prove the model | Build — look to Boston, Pittsburgh, Detroit for precedent |
-| **No evidence yet** | Low | Low | No local or cross-city precedent | Untested — but adjacency may justify pilot |
+| **No evidence yet** | Low | Low | No local or cross-city precedent | Untested — but cross-city evidence may justify pilot |
 
 **Seattle examples (city-wide):**
 
@@ -205,7 +205,7 @@ The CommonScore's policy output is a gap analysis per city. For each dimension, 
 | Gaming | 1.0 | 0.2 | **Proven demand, needs space** | Phoenix is full every night. Mox Boarding House fills tables. PAX sells out in hours. The bottleneck is square footage. |
 | Makers | 0.7 | 0.2 | **Proven demand, needs space** | Capitol Hill Tool Library — volunteer-run, pay-what-you-can, 6 days/week since 2007. The demand is 19 years old. |
 | Robotics | 0.2 | 0.2 | **Cross-city evidence** | MassRobotics, CMU RIC, and Michigan Central prove the model. Seattle has no equivalent. |
-| Seniors | 0.5 | 0.3 | **Adjacency justifies scale-up** | Horizon House residents 3 blocks from the Arch. Senior centers exist city-wide but none connected to convention center space. |
+| Seniors | 0.5 | 0.3 | **Proven demand, needs scale** | Senior centers (Phinney, Greenwood) are full. Seoul and Singapore prove systematic investment works. Seattle's senior infrastructure is distributed but small-scale. |
 
 ---
 
@@ -225,5 +225,12 @@ If you disagree with the estimates — show us the data. We'll update the score.
 - Seattle Commons vision (16 dimensions): [commons.conventioncityseattle.com/vision](https://commons.conventioncityseattle.com/vision)
 - Induced demand in transportation: Duranton & Turner, "The Fundamental Law of Road Congestion" (2011)
 - City-level evidence documented in [almanac city profiles](/cities/)
+
+## Changelog
+
+| Date | Change |
+|---|---|
+| **2026-04-08** | **Methodology correction**: Weekly Availability definition changed from "in or near the convention center district" to "city-wide" — consistent with how scoring has always been applied (Phoenix Comics, Capitol Hill Tool Library, etc. are not convention-center-adjacent). Seniors weight rationale rewritten from Seattle-specific adjacency claim to cross-city evidence (Seoul, Singapore). Wellness weight rationale corrected: removed unsupported claim about convention center shower facilities; replaced with Tokyo sentō and structural argument. Supply-gap table: Seniors diagnosis changed from "Adjacency justifies scale-up" to "Proven demand, needs scale." |
+| **2026-04-01** | Initial publication. 16 dimensions, 32 cities. |
 
 *CommonScore methodology published 2026-04-01. City-wide participation space model. 16 dimensions.*
